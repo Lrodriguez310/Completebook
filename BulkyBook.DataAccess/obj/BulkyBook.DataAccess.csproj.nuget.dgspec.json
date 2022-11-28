@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {}
+    "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+    "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
         "projectName": "BulkyBook.DataAccess",
-        "projectPath": "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+        "projectPath": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
         "packagesPath": "C:\\Users\\W0812903\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\W0812903\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-                "projectPath": "C:\\Users\\W0812903\\Desktop\\BulkyBook-master\\BulkyBook-master\\BulkyBook.Models\\BulkyBook.Models.csproj"
+              "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+                "projectPath": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.Models\\BulkyBook.Models.csproj"
               }
             }
           }
@@ -59,6 +59,66 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectName": "BulkyBook.Models",
+        "projectPath": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "packagesPath": "C:\\Users\\W0812903\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0812903\\Source\\Repos\\Completebook\\BulkyBook.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\W0812903\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
